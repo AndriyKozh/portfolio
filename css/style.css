@@ -1,0 +1,280 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #1e2939;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.content {
+  position: relative;
+  display: flex;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-shadow: 62px 56px 25px -45px rgba(70, 207, 189, 0.73);
+  -webkit-box-shadow: 62px 56px 25px -45px rgba(70, 207, 189, 0.73);
+  -moz-box-shadow: 62px 56px 25px -45px rgba(70, 207, 189, 0.73);
+}
+
+.angle-bottom {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+}
+
+.conteiner {
+  width: 1200px;
+  min-height: 1500px;
+  margin: 0 auto;
+  left: 40px;
+  top: 40px;
+  background-color: #1e2939;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.22;
+}
+.work__title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+}
+.orang-text {
+  font-weight: 700;
+  font-size: 16p1.25;
+  color: #fb6d3a;
+}
+
+/* my info */
+.my-info {
+  padding-left: 88px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.my-info__content {
+  position: relative;
+  padding-bottom: 40px;
+  margin: 0px;
+}
+.text-conteiner {
+  margin-top: 20px;
+}
+
+.my-info__profesion {
+  margin-bottom: 20px;
+}
+
+.m {
+  margin-right: 100px;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+.img-word {
+  position: absolute;
+  left: 120px;
+  top: 30px;
+}
+.blast {
+  color: #cccccc;
+  margin-bottom: 20px;
+  margin-top: 0;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 1.22;
+  color: #cccccc;
+}
+.blast:hover {
+  color: rgb(5, 221, 236);
+  box-shadow: 10px 5px 5px red;
+}
+
+.my-info__name {
+  margin-bottom: 20px;
+  margin-top: 0;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 1.22;
+  color: #cccccc;
+}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.text {
+  width: 400px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #ffffff;
+}
+
+.project {
+  width: 510px;
+}
+
+.project-content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.project-link {
+  margin-left: auto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  color: #595959;
+}
+.project-info {
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #fb6d3a;
+}
+
+/* social */
+.social {
+  position: relative;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  background: #1e2939;
+}
+.social .color {
+  position: absolute;
+}
+.social .color:nth-child(1) {
+  background: #1e2939;
+
+  height: 70px;
+  top: 0px;
+}
+.social-list {
+  width: 354px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  z-index: 3;
+}
+.social-icon {
+  position: relative;
+  list-style: none;
+  margin-right: 25px;
+}
+
+.social-icon:last-child {
+  margin-right: 0;
+}
+
+svg {
+  fill: rgb(5, 221, 236, 0.5);
+}
+
+.social-link {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border: 1px solid rgb(5, 221, 236, 0.5);
+  text-decoration: none;
+  font-size: 2em;
+  border-radius: 10px;
+  align-items: center;
+  box-shadow: 2px 1px 1px red;
+  backdrop-filter: blur(2px);
+  transition: 0.5s;
+  overflow: hidden;
+}
+.social-link:hover {
+  transform: translateY(-15px);
+}
+.social-link::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: -100px;
+  width: 30px;
+  height: 100%;
+  background: rgb(5, 221, 236, 0.5);
+  transform: skewX(45deg) translateX(155px);
+  transition: 0.5s;
+}
+
+.social-link:hover::before {
+  transform: skewX(45deg) translateX(0px);
+}
+
+/* SIdebar */
+.title--sidebar {
+}
+
+.titl-sidebar {
+  color: #cccccc;
+  margin-bottom: 20px;
+}
+
+.sidebar {
+  padding: 40px;
+}
+.contact-type {
+  font-weight: bold;
+}
+.sidebar__contact {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.contact-type {
+}
+.sidebar__tech-skill {
+}
+.img-word {
+  margin-bottom: -10px;
+}
+
+.my-info__text span {
+  display: inline;
+  cursor: pointer;
+}
+
+.active {
+  /* opacity: 0;
+  filter: blur(20px);
+  transition: 2s;
+  transform: translateX(300px) translateY(-300px) rotate(720deg) scale(4);
+  transition: 2s; */
+}
+
+.social-icon {
+  animation-name: spin;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
